@@ -27,7 +27,7 @@ const Home = () => {
       <CtaTwo />
       <CtaThree />
       {/* <Video /> */}
-      <AppShots />
+      {/* <AppShots /> */}
       <Pricing />
       <Testimonials />
       <Clients />

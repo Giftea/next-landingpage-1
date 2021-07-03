@@ -19,47 +19,7 @@ const Banner = () => {
           <Row className="align-items-center">
             <Col md={8} lg={6} xl={5}>
               <div className="banner-text-inner">
-                <div className="banner-shape-wrap">
-                  <div className="banner-shape-inner">
-                    <Image
-                      src={shape1}
-                      alt=""
-                      className="shape shape1 rotate3d"
-                    />
-                    <Image
-                      src={shape2}
-                      alt=""
-                      className="shape shape2 rotate2d"
-                    />
-                    <Image
-                      src={shape3}
-                      alt=""
-                      className="shape shape3 rotate-2d"
-                    />
-                    <Image
-                      src={shape4}
-                      alt=""
-                      className="shape shape4 rotate3d"
-                    />
-                    <Image
-                      src={shape5}
-                      alt=""
-                      className="shape shape5 rotate2d"
-                    />
-                    <Image
-                      src={shape6}
-                      alt=""
-                      className="shape shape6 rotate-2d"
-                    />
-                    <Image
-                      src={shape7}
-                      alt=""
-                      className="shape shape7 rotate3d"
-                    />
-                  </div>
-                </div>
-
-                <h1>Jironis is for your internet app business</h1>
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
                 <p>
                   Excepteur sint occaecat cupidatat non proident sunt in culpa
                   qui officia deserunt mollit lorem ipsum anim id est laborum
