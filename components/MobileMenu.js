@@ -22,7 +22,7 @@ const MobileMenu = () => {
         <div className="side-menu__content">
           <p>
             Lorem Ipsum is simply dummy text the printing and setting industry.
-            Lorm Ipsum has been the industry's stanard dummy text ever.
+            Lorm Ipsum has been the industrys stanard dummy text ever.
           </p>
           <p>
             <a href="mailto:eleojouhiene@gmail.com">eleojouhiene@gmail.com</a> <br />

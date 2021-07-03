@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import NavLinks from "./NavLinks";
 import Image from 'next/image'
+import Link from 'next/link'
+
 
 import headerLogo from "../assets/img/logo.png";
 
@@ -55,9 +57,9 @@ const HeaderHome = (props) => {
             <div className="row align-items-center">
               <div className="col-xl-3 col-lg-3 col-md-4 col-6">
                 <div className="logo">
-                  <a href="/">
+                  <Link href="/" passHref>
                     <Image src={headerLogo} alt="giftea" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-4 col-6 menu-button">
@@ -79,7 +81,7 @@ const HeaderHome = (props) => {
               </div>
               <div className="col-lg-3 col-md-4 col-sm-5 d-md-block d-none">
                 <div className="urgent-call text-right">
-                  <a href="#" className="btn">
+                  <a className="btn">
                     Get Started
                   </a>
                 </div>
