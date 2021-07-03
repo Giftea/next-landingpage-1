@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import SwiperCore, { Autoplay, Thumbs, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from 'next/image'
 
 import img1 from "../assets/img/feature/author3.png";
 import img2 from "../assets/img/feature/author2.png";
@@ -55,13 +56,13 @@ const Testimonials = () => {
                   {...thumbnailsParam}
                 >
                   <SwiperSlide className="single-author-imge">
-                    <img src={img1} alt="" />
+                    <Image src={img1} alt="" />
                   </SwiperSlide>
                   <SwiperSlide className="single-author-imge">
-                    <img src={img2} alt="" />
+                    <Image src={img2} alt="" />
                   </SwiperSlide>
                   <SwiperSlide className="single-author-imge">
-                    <img src={img3} alt="" />
+                    <Image src={img3} alt="" />
                   </SwiperSlide>
                 </Swiper>
               </div>

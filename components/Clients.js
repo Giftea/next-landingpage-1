@@ -1,6 +1,7 @@
 import React from "react";
 import SwiperCore, { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from 'next/image'
 
 SwiperCore.use([Autoplay]);
 
@@ -39,37 +40,37 @@ const Clients = () => {
             <div className="partner-carousel-wrap">
               <Swiper className="partner-carousel" {...params}>
                 <SwiperSlide className="single-partner">
-                  <img src={img1} alt="" />
+                  <Image src={img1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className="single-partner">
-                  <img src={img1} alt="" />
+                  <Image src={img1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className="single-partner">
-                  <img src={img1} alt="" />
+                  <Image src={img1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className="single-partner">
-                  <img src={img1} alt="" />
+                  <Image src={img1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className="single-partner">
-                  <img src={img1} alt="" />
+                  <Image src={img1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className="single-partner">
-                  <img src={img1} alt="" />
+                  <Image src={img1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className="single-partner">
-                  <img src={img1} alt="" />
+                  <Image src={img1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className="single-partner">
-                  <img src={img1} alt="" />
+                  <Image src={img1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className="single-partner">
-                  <img src={img1} alt="" />
+                  <Image src={img1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className="single-partner">
-                  <img src={img1} alt="" />
+                  <Image src={img1} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className="single-partner">
-                  <img src={img1} alt="" />
+                  <Image src={img1} alt="" />
                 </SwiperSlide>
               </Swiper>
             </div>

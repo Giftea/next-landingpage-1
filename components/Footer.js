@@ -1,12 +1,13 @@
 import React from "react";
 import footerBg from "../assets/img/footer-bg.png";
 import footerLogo from "../assets/img/logo.png";
+import Image from 'next/image'
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footerbg">
-        <img src={footerBg} className="svg" alt="" />
+        <Image src={footerBg} className="svg" alt="" />
       </div>
       <div className="footer-top pt-120 pb-110">
         <div className="container">
@@ -15,7 +16,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <div className="footer-logo">
                   <a href="index.html">
-                    <img src={footerLogo} alt="" />
+                    <Image src={footerLogo} alt="" />
                   </a>
                 </div>
                 <p>

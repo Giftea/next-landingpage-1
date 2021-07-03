@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Image from 'next/image'
 
 import img1 from "../assets/img/feature/user-interact.png";
 import img2 from "../assets/img/icons/teamwork.svg";
@@ -11,13 +12,13 @@ const CtaTwo = () => {
         <Row>
           <Col lg={7} sm={7}>
             <div className="user-interact-image">
-              <img src={img1} alt="" />
+              <Image src={img1} alt="" />
             </div>
           </Col>
           <Col lg={5} sm={5}>
             <div className="user-interact-inner">
               <div className="interact-icon">
-                <img src={img2} className="svg" alt="" />
+                <Image src={img2} className="svg" alt="" />
               </div>
               <h2>Interact With Your Users On Every Single Platform</h2>
               <p>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NavLinks from "./NavLinks";
+import Image from 'next/image'
 
 import headerLogo from "../assets/img/logo2.png";
 import headerLogoSticky from "../assets/img/logo.png";
@@ -58,8 +59,8 @@ const HeaderHome = (props) => {
               <div className="col-xl-3 col-lg-3 col-md-4 col-6">
                 <div className="logo">
                   <a href="/">
-                    <img class="main-logo2" src={headerLogo} alt="jironis" />
-                    <img
+                    <Image class="main-logo2" src={headerLogo} alt="jironis" />
+                    <Image
                       class="sticky-logo"
                       src={headerLogoSticky}
                       alt="jironis"

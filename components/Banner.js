@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
+import Image from 'next/image'
 import shape1 from "../assets/img/banner/shaps1.png";
 import shape2 from "../assets/img/banner/shaps2.png";
 import shape3 from "../assets/img/banner/shaps3.png";
@@ -21,37 +21,37 @@ const Banner = () => {
               <div className="banner-text-inner">
                 <div className="banner-shape-wrap">
                   <div className="banner-shape-inner">
-                    <img
+                    <Image
                       src={shape1}
                       alt=""
                       className="shape shape1 rotate3d"
                     />
-                    <img
+                    <Image
                       src={shape2}
                       alt=""
                       className="shape shape2 rotate2d"
                     />
-                    <img
+                    <Image
                       src={shape3}
                       alt=""
                       className="shape shape3 rotate-2d"
                     />
-                    <img
+                    <Image
                       src={shape4}
                       alt=""
                       className="shape shape4 rotate3d"
                     />
-                    <img
+                    <Image
                       src={shape5}
                       alt=""
                       className="shape shape5 rotate2d"
                     />
-                    <img
+                    <Image
                       src={shape6}
                       alt=""
                       className="shape shape6 rotate-2d"
                     />
-                    <img
+                    <Image
                       src={shape7}
                       alt=""
                       className="shape shape7 rotate3d"
@@ -75,7 +75,7 @@ const Banner = () => {
             </Col>
             <Col md={4} lg={5} className="  offset-lg-1  offse-xl-2">
               <div className="banner-image">
-                <img src={bannerMoc} alt="" />
+                <Image src={bannerMoc} alt="" />
               </div>
             </Col>
           </Row>

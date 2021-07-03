@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image'
 
 import postImg1 from "../assets/img/blog/latest-blog1.png";
 import postImg2 from "../assets/img/blog/latest-blog2.png";
@@ -26,7 +27,7 @@ const Sidebar = () => {
             <li>
               <div className="latest-post-wrap media">
                 <div className="latest-post-img">
-                  <img src={postImg1} alt="" />
+                  <Image src={postImg1} alt="" />
                 </div>
                 <div className="latest-post-body media-body">
                   <p>
@@ -39,7 +40,7 @@ const Sidebar = () => {
             <li>
               <div className="latest-post-wrap media">
                 <div className="latest-post-img">
-                  <img src={postImg2} alt="" />
+                  <Image src={postImg2} alt="" />
                 </div>
                 <div className="latest-post-body media-body">
                   <p>
@@ -52,7 +53,7 @@ const Sidebar = () => {
             <li>
               <div className="latest-post-wrap media">
                 <div className="latest-post-img">
-                  <img src={postImg3} alt="" />
+                  <Image src={postImg3} alt="" />
                 </div>
                 <div className="latest-post-body media-body">
                   <p>

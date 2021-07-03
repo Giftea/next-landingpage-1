@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from 'next/image'
 
 const BlogPost = (props) => {
   return (
@@ -7,7 +8,7 @@ const BlogPost = (props) => {
       <div className="post-image">
         <Link href={props.postLink}>
           <a>
-            <img src={props.postImage} alt="" />
+            <Image src={props.postImage} alt="" />
           </a>
         </Link>
 

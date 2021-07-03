@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import BlogPost from "./BlogPost";
 import SectionTitle from "./SectionTitle";
 
+
 import img1 from "../assets/img/blog/blog1.png";
 import img2 from "../assets/img/blog/blog2.png";
 import img3 from "../assets/img/blog/blog3.png";

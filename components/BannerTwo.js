@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Image from "next/image";
 
 import shape1 from "../assets/img/banner/shaps1.png";
 import shape2 from "../assets/img/banner/shaps2.png";
@@ -36,17 +37,45 @@ const BannerTwo = () => {
             <div className="col-lg-5 offset-lg-1 col-md-4 offse-xl-2">
               <div className="banner-shape-wrap">
                 <div className="banner-shape-inner">
-                  <img src={shape1} alt="" className="shape shape1 rotate3d" />
-                  <img src={shape2} alt="" className="shape shape2 rotate2d" />
-                  <img src={shape3} alt="" className="shape shape3 rotate-2d" />
-                  <img src={shape4} alt="" className="shape shape4 rotate3d" />
-                  <img src={shape5} alt="" className="shape shape5 rotate2d" />
-                  <img src={shape6} alt="" className="shape shape6 rotate-2d" />
-                  <img src={shape7} alt="" className="shape shape7 rotate3d" />
+                  <Image
+                    src={shape1}
+                    alt=""
+                    className="shape shape1 rotate3d"
+                  />
+                  <Image
+                    src={shape2}
+                    alt=""
+                    className="shape shape2 rotate2d"
+                  />
+                  <Image
+                    src={shape3}
+                    alt=""
+                    className="shape shape3 rotate-2d"
+                  />
+                  <Image
+                    src={shape4}
+                    alt=""
+                    className="shape shape4 rotate3d"
+                  />
+                  <Image
+                    src={shape5}
+                    alt=""
+                    className="shape shape5 rotate2d"
+                  />
+                  <Image
+                    src={shape6}
+                    alt=""
+                    className="shape shape6 rotate-2d"
+                  />
+                  <Image
+                    src={shape7}
+                    alt=""
+                    className="shape shape7 rotate3d"
+                  />
                 </div>
               </div>
               <div className="banner-image">
-                <img src={bannerMoc} alt="" />
+                <Image src={bannerMoc} alt="" />
               </div>
             </div>
           </Row>
