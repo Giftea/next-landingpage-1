@@ -1,13 +1,4 @@
 /*---------------------------------------------
-Template name:  jironis
-Version:        1.0
-Author:         layerdrops
-Author Email:   layerdrops@gmail.com
-
-NOTE:
------
-Please DO NOT EDIT THIS CSS, you may need to use "custom.css" file for writing your custom css.
-We may release future updates so it will overwrite this file. it's better and safer to use "custom.css".
 
 [Table of Content]
 
@@ -1525,10 +1516,6 @@ label input[type="radio"] {
 }
 
 section.app-video {
-  background-image: url(../img/video-bg.jpg);
-  background-size: cover;
-  background-position: 0% 78%;
-  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -2702,7 +2689,7 @@ footer.footer {
 /*===========================================
         02: Page Title
     ===========================================*/
-.page-title-wrap {
+/* .page-title-wrap {
   padding-top: 267px;
   padding-bottom: 156px;
   position: relative;
@@ -2713,7 +2700,7 @@ footer.footer {
     center;
   background-repeat: repeat;
   background-size: auto;
-}
+} */
 
 .page-title h1 {
   color: #53e1ff;
