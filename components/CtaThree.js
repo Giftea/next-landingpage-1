@@ -15,7 +15,7 @@ const CtaThree = () => {
               <div className="interact-icon">
                 <Image src={img1} className="svg" alt="" />
               </div>
-              <h2>Interact With Your Users On Every Single Platform</h2>
+              <h2>ILorem ipsum dolor sit amet, consectetur adipisicing.</h2>
               <p>
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by

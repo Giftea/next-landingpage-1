@@ -1,7 +1,7 @@
 import React from "react";
 import footerBg from "../assets/img/footer-bg.png";
 import footerLogo from "../assets/img/logo.png";
-import Image from 'next/image'
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="footer-top pt-120 pb-110">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="footer-widget">
                 <div className="footer-logo">
                   <a href="index.html">
@@ -51,7 +51,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="footer-widget">
                 <div className="widget-header">
                   <h5>Our Address</h5>
@@ -63,25 +63,25 @@ const Footer = () => {
                       <span>
                         <i className="fa  fa-phone-square"></i>
                       </span>
-                      888 999 0000
+                      576 3864 000
                     </li>
                     <li>
                       <span>
                         <i className="fa  fa-envelope"></i>
                       </span>
-                      needhelp@jironis.com
+                      eleojouhiene@gmail.com
                     </li>
                     <li>
                       <span>
                         <i className="fa  fa-map"></i>
                       </span>
-                      855 road, broklyn street, new york 600
+                      855 road, Douglas str, 1234 NW
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="footer-widget">
                 <div className="widget-header">
                   <h5>Extra Links</h5>
@@ -131,32 +131,12 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="footer-widget">
-                <div className="widget-body">
-                  <div className="twetter-post-inner">
-                    <div className="footer-post-details">
-                      @Layerdrops Take your web design to new heights with
-                      jironix. <br />
-                      <a href="http://yhdj58.tp8/JK">http://yhdj58.tp8/JK</a>
-                    </div>
-                    <div className="twetter-post">
-                      <span>
-                        <i className="fa fa-twitter"></i>
-                      </span>
-                      Jironis - Nov 23, 2018
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
         <div className="footer-text text-center">
-          <p>© copyright 2019 by Layerdrops.com</p>
+          <p>© copyright 2021 by Giftea</p>
         </div>
       </div>
     </footer>

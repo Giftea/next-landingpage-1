@@ -15,37 +15,37 @@ import img4 from "../assets/img/icons/goal.svg";
 
 const FEATURES_DATA = [
   {
-    title: "New Artwork \n Unveiled",
+    title: "Lorem ipsum \n Dolor",
     text:
       "There are many variations of passages of lorem Ipsum but majority have suffered.",
     image: img1
   },
   {
-    title: "Company Growth \n Strategy",
+    title: "Lorem Ipsum \n Dolor",
     text:
       "There are many variations of passages of lorem Ipsum but majority have suffered.",
     image: img2
   },
   {
-    title: "Creative App \n Display",
+    title: "Lorem Ipsum \n Display",
     text:
       "There are many variations of passages of lorem Ipsum but majority have suffered.",
     image: img4
   },
   {
-    title: "Company Growth \n Strategy",
+    title: "Lorem Ipsum \n Dolor",
     text:
       "There are many variations of passages of lorem Ipsum but majority have suffered.",
     image: img3
   },
   {
-    title: "New Artwork \n Unveiled",
+    title: "Lorem ipsum \n Dolor",
     text:
       "There are many variations of passages of lorem Ipsum but majority have suffered.",
     image: img1
   },
   {
-    title: "Company Growth \n Strategy",
+    title: "Lorem Ipsum \n Dolor",
     text:
       "There are many variations of passages of lorem Ipsum but majority have suffered.",
     image: img2
@@ -58,7 +58,7 @@ const FEATURES_DATA = [
     image: img3
   },
   {
-    title: "Creative App \n Display",
+    title: "Lorem Ipsum \n Display",
     text:
       "There are many variations of passages of lorem Ipsum but majority have suffered.",
     image: img4
@@ -111,7 +111,7 @@ const Features = () => {
         <Row className="justify-content-center">
           <Col md={12} lg={8}>
             <SectionTitle
-              title="App Advance Features"
+              title="Microphone Features"
               text="Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt    mollit lorem ipsum anim id est laborum perspiciatis unde."
             />
           </Col>

@@ -29,8 +29,8 @@ const Home = () => {
       {/* <Video /> */}
       {/* <AppShots /> */}
       <Pricing />
-      <Testimonials />
-      <Clients />
+      {/* <Testimonials />
+      <Clients /> */}
       <BlogHome />
       <CtaOne />
       <Footer />

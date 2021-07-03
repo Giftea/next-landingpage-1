@@ -6,7 +6,7 @@ const BlogPost = (props) => {
   return (
     <div className="single-blog-inner">
       <div className="post-image">
-        <Link href={props.postLink}>
+        <Link href='#'>
           <a>
             <Image src={props.postImage} alt="" />
           </a>
@@ -23,13 +23,13 @@ const BlogPost = (props) => {
       <div className="post-content">
         <div className="post-details">
           <div className="post-info d-flex">
-            <Link href={props.postLink}>
+            <Link href='#'>
               <a>
                 <span>By</span>
                 {props.postAuthor}
               </a>
             </Link>
-            <Link href={props.postLink}>
+            <Link href='#'>
               <a>
                 <span>{props.postCommentCount}</span> Comment
               </a>
@@ -38,13 +38,13 @@ const BlogPost = (props) => {
 
           <div className="post-title">
             <h3>
-              <Link href={props.postLink}>
+              <Link href='#'>
                 <a>{props.postTitle}</a>
               </Link>
             </h3>
           </div>
           <p>{props.postContent}</p>
-          <Link href={props.postLink}>
+          <Link href='#'>
             <a className={props.btnClass}>Read More</a>
           </Link>
         </div>
