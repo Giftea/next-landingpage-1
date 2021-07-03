@@ -121,7 +121,7 @@
     }
 
     .main-menu-wrap .btn {
-        border-color: #5b39c9;
+        border-color: #008080;
     }
 
     /* Header */
@@ -234,7 +234,7 @@
     }
 
     .header-menu #menu-button {
-        color: #f77ade;
+        color: #008080d5;
         font-size: 28px;
         display: inline-block;
         cursor: pointer;
@@ -284,12 +284,12 @@
 
     .header-menu #menu-button.menu-opened:before,
     .header-menu .submenu-button.submenu-opened:before {
-        border-top-color: #f77ade;
+        border-top-color: #008080;
     }
 
     .header-menu>ul>li:not(.active):hover>a,
     .header-menu>ul>li:not(.active)>a:hover {
-        color: #f77ade;
+        color: #008080;
     }
 
     .header-menu>ul>li>ul {
@@ -524,7 +524,7 @@
     }
 
     .header-2.inner-header a.btn {
-        border-color: #5b39c9;
+        border-color: #008080;
     }
 
     .banner-inner-area.banner-area1.banner2:before {
@@ -572,7 +572,7 @@
     }
 
     .single-price-plan.active {
-        border: 2px solid #5b39c9;
+        border: 2px solid #008080;
         padding: 70px 0 80px;
         margin-top: -20px;
         margin-bottom: 20px;
@@ -664,9 +664,9 @@
     }
 
     .download-app-inner .btn {
-        border-color: #f77ade;
+        border-color: #008080;
         color: #fff;
-        background: #f77ade;
+        background: #008080;
         margin-bottom: 4px;
         font-size: 14px;
         font-weight: 600;
@@ -778,7 +778,7 @@
     }
 
     .main-header.sticky .blog-menu.header-menu i {
-        color: #f77ade;
+        color: #008080;
     }
 
     .banner-inner-area.banner-area1.banner2:before {

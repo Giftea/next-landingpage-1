@@ -25,7 +25,7 @@ const MobileMenu = () => {
             Lorm Ipsum has been the industry's stanard dummy text ever.
           </p>
           <p>
-            <a href="mailto:needhelp@apton.com">needhelp@apton.com</a> <br />
+            <a href="mailto:eleojouhiene@gmail.com">eleojouhiene@gmail.com</a> <br />
             <a href="tel:888-999-0000">888 999 0000</a>
           </p>
           <div className="side-menu__social">

@@ -15,21 +15,8 @@ const NavLinks = () => {
         <Link href="/">
           <>
             <a>Home</a>
-            <i className="fa fa-angle-down" onClick={handleDropdownStatus}></i>
           </>
         </Link>
-        <ul className="dropdown-list">
-          <li>
-            <Link href="/">
-              <a>Home One</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/index-2">
-              <a>Home Two</a>
-            </Link>
-          </li>
-        </ul>
       </li>
       <li>
         <ScrollLink
@@ -47,18 +34,6 @@ const NavLinks = () => {
       <li>
         <ScrollLink
           activeClass="current"
-          to="app"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          App Screens
-        </ScrollLink>
-      </li>
-      <li>
-        <ScrollLink
-          activeClass="current"
           to="pricing"
           spy={true}
           smooth={true}
@@ -68,25 +43,17 @@ const NavLinks = () => {
           Pricing
         </ScrollLink>
       </li>
-      <li className="dropdown">
-        <Link href="/news">
-          <>
-            <a>News</a>
-            <i className="fa fa-angle-down" onClick={handleDropdownStatus}></i>
-          </>
-        </Link>
-        <ul className="dropdown-list">
-          <li>
-            <Link href="/news">
-              <a>News</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/news-details">
-              <a>News Details</a>
-            </Link>
-          </li>
-        </ul>
+      <li>
+        <ScrollLink
+          activeClass="current"
+          to="blog"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          News
+        </ScrollLink>
       </li>
     </ul>
   );
