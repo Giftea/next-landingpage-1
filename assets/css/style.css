@@ -3,53 +3,19 @@
 [Table of Content]
 
 01: General CSS
-    1.1: Default CSS
-    1.2: background color
-    1.3: Buttons
-    1.4: Padding/Margin
-    1.5: Animations
 02: Page Title
 03: Header
-    3.1: Header Menu 1
 04: Banner
-    4.1: main banner 01
-    4.02: main banner home2
 05: Feature area
-    5:01 feature type2
-    5:02 feature type3
-06: Video section
 07: bottle delivery
 08: start about section
-09: start our team
-10: subscribe area
-11: testimonial area
-    11: 01 testimonial area type2
-12: our location
-13: our partner
 14: our quality feature
-    14:01 quality type2
 15: our blog area
 16: Bloge details page
-    16:01 blog details
 17: map area
 18: Conatct page
-    18:01 conatct info
 19: Call to action
 20: Footer
-    20.01: footer top
-    20.02: footer bottom
-21: Others
-    21.01: pettrns
-    21.02: About block
-    21.03: Why us
-    21.04: Subscription
-    21.05: Carousel controls
-    21.06: Slider pagination style
-    21.07: Social icons
-    21.08: Back to top
-    21.09: Preloader
-    21.10: Form validation
-    21.11: Content animation
 ----------------------------------------------*/
 
 /*=============================================
@@ -1133,30 +1099,6 @@ label input[type="radio"] {
   position: absolute;
   content: "";
 }
-/* .banner-inner-area.banner-area1:before{
-    background: url(../img/banner/base.png);
-    background-position: top right;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    right: -21%;
-    position: absolute;
-    content: "";
-}
- .banner-inner-area.banner-area1:after {
-    background: url(../img/banner/base2.png);
-    background-position: top right;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    top: 36%;
-    right: -16%;
-    position: absolute;
-    content: "";
-    z-index: -1;
-}
-*/
 
 .banner-area1 .banner-text-wrap span {
   color: #ffa21d;
@@ -1264,20 +1206,6 @@ label input[type="radio"] {
   right: -6%;
 }
 
-/* home2 */
-.banner-inner-area.banner-area1.banner2:before {
-  background: url(../img/banner/base3.png);
-  background-position: top right;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  top: 0%;
-  right: 0%;
-  position: absolute;
-  content: "";
-  background-position: 47% 0%;
-  content: "";
-}
 .banner-inner-area.banner-area1.banner2:after {
   display: none;
 }
@@ -1582,113 +1510,7 @@ section.app-video:before {
 /*===============================================
     Feature screen image
 ===============================================*/
-.app-scrin-inner {
-  position: relative;
-  overflow: hidden;
-  max-width: 1500px;
-  margin: 0 auto;
-  padding: 0px 20px;
-  margin-top: -72px;
-}
 
-.app-carousel-inner {
-  position: relative;
-  width: 450px;
-  height: 770px;
-  margin: 0 auto;
-  padding: 108px 70px;
-  background: url(../img/feature/mockup.png);
-  margin-top: 12px;
-}
-.app-carousel .single-app-image img {
-  display: block;
-  width: 90%;
-  height: 95%;
-  margin: 40px auto;
-  top: 20px;
-}
-#appshot-paginations .swiper-pagination-bullet,
-.app-carousel button.owl-dot {
-  height: 7px;
-  width: 7px;
-  background: #ded7f4 !important;
-  margin-right: 5px;
-  border-radius: 50%;
-  -webkit-transition: 0.3s all linear;
-  transition: 0.3s all linear;
-  line-height: 10px;
-  vertical-align: middle;
-  opacity: 1;
-}
-#appshot-paginations .swiper-pagination-bullet-active,
-.app-carousel button.owl-dot.active {
-  background: #008080 !important;
-  height: 10px;
-  width: 10px;
-}
-#appshot-paginations,
-.app-carousel .owl-dots {
-  text-align: center;
-  margin-top: 124px;
-  z-index: 11;
-  width: 100%;
-}
-
-@media (max-width: 1440px) {
-  #appshot-paginations,
-  .app-carousel .owl-dots {
-    margin-top: 40px;
-  }
-}
-
-.app-shot-one .container-fluid {
-  max-width: 1595px;
-  width: 100%;
-  position: relative;
-}
-
-.app-shot-one .app-shot-one__carousel {
-  padding-top: 100.5px;
-  padding-bottom: 100.5px;
-  margin-top: -20px;
-  position: relative;
-}
-
-@media (max-width: 1440px) {
-  .app-shot-one .app-shot-one__carousel {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-}
-.app-shot-one .app-shot-one__carousel:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  background-image: url(../img/feature/mockup.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 450px;
-  height: 770px;
-  background-size: 100% auto;
-}
-
-@media (max-width: 1440px) {
-  .app-shot-one .app-shot-one__carousel:before {
-    display: none;
-    -webkit-transform: translate(-50%, -49%) scaleY(0.95);
-    transform: translate(-50%, -49%) scaleY(0.95);
-  }
-}
-
-@media (max-width: 1280px) {
-  .app-shot-one .app-shot-one__carousel:before {
-    -webkit-transform: translate(-50%, -49%) scale(0.8);
-    transform: translate(-50%, -49%) scale(0.8);
-  }
-}
 
 /*============================================
     pricing plan
@@ -1803,101 +1625,9 @@ section.app-video:before {
   opacity: 1;
 }
 
-/*============================================
-    11: testimonial area
-============================================*/
 
-/* partner */
-.partner-carousel .single-partner img {
-  width: inherit !important;
-  margin: 0 auto;
-  opacity: 0.5;
-  -webkit-transition: 0.3s all linear;
-  transition: 0.3s all linear;
-}
 
-.partner-carousel .single-partner:hover img {
-  opacity: 1;
-}
-.single-author-imge img {
-  width: inherit !important;
-  margin: 0 auto;
-}
-.author-carousel .owl-nav {
-  display: none;
-}
-.testimonial-author-arousel {
-  max-width: 350px;
-  margin: 0 auto;
-  padding-bottom: 75px;
-}
 
-.testimonial-author-arousel .owl-stage-outer {
-  overflow: visible;
-}
-.testimonial-author-inner .swiper-container {
-  overflow: visible;
-}
-.testimonial-author-inner .swiper-slide img {
-  transition: transform 500ms, opacity 500ms;
-}
-.testimonial-author-inner .swiper-slide-thumb-active img,
-.center .single-author-imge img {
-  opacity: 0.5;
-}
-@media (min-width: 768px) {
-  .testimonial-author-inner .swiper-slide-thumb-active img,
-  .center .single-author-imge img {
-    opacity: 1;
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-}
-.testimonial-author-comment {
-  position: relative;
-}
-.testimonial-author-comment-nav #testi-swiper-button-next,
-.testimonial-author-comment-nav #testi-swiper-button-prev {
-  height: 65px;
-  width: 65px;
-  background: #fff !important;
-  position: absolute;
-  border-radius: 50%;
-  right: -36%;
-  top: -10%;
-  -webkit-transition: 0.3s all linear;
-  transition: 0.3s all linear;
-  z-index: 10;
-  border: none;
-  outline: none;
-  display: none;
-}
-
-@media (min-width: 1200px) {
-  .testimonial-author-comment-nav #testi-swiper-button-next,
-  .testimonial-author-comment-nav #testi-swiper-button-prev {
-    display: block;
-  }
-}
-.testimonial-author-comment-nav #testi-swiper-button-prev {
-  left: -36%;
-}
-.testimonial-author-comment-nav #testi-swiper-button-prev:hover,
-.testimonial-author-comment-nav #testi-swiper-button-next:hover {
-  background: #e3e2e7 !important;
-  color: #fff !important;
-}
-.single-author-comment h4 {
-  font-size: 30px;
-  line-height: 50px;
-  margin-bottom: 34px;
-  color: #36324a;
-}
-
-.single-author-comment p {
-  color: #05f5f5;
-  margin-bottom: 0;
-}
 /* =====================================================
         Our Blog
 ===================================================== */

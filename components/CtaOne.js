@@ -9,14 +9,14 @@ const CtaOne = () => {
           <Col md={12} lg={10}>
             <div className="download-app-inner text-center">
               <h2 className="h1">
-                Download our App Today &<br />
-                Experience Endless Possibilities.
+                Lorem ipsum dolor sit. &<br />
+                Amet consectetur adipisicing elit.
               </h2>
               <h3>
-                and get started with a free 1 month trial for your business
+                Adipisicing elit. Eveniet labore quis nesciunt, rem explicabo nulla?
               </h3>
               <a href="#" className="btn">
-                Download App
+                Get Started
               </a>
             </div>
           </Col>

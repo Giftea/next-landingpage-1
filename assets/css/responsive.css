@@ -1,14 +1,4 @@
-/*============================================
 
-[Table of content]
-
-1. Large devices (less than 1200px)
-2. Large tablets (less than  992px)
-3. Medium devices (less than  768px)
-4. Small devices (less than  576px)
-5. Extra Small devices (less than  480px)
-
-============================================*/
 
 @media (min-width: 992px) and (max-width: 1600px) {
     .banner-inner-area.banner-area1:before {
